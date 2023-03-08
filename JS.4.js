@@ -17,6 +17,7 @@ deleteBtn.addEventListener("click", function() {
     localStorage.clear()
     myLeads = []
     renderLeads()
+    alert("You've Cleared Your List")
 })
 
 
